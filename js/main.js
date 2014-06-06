@@ -1,0 +1,9 @@
+$(document).ready(function()
+{
+	$("#click").click(function()
+	{
+		$("#panel").slideToggle();
+		//$("#panel").slideUp();
+		//$("#panel").slideDown();
+	});
+});
